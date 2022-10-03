@@ -1,8 +1,8 @@
 ﻿// Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 
 
-int rows = new Random().Next(4,5);
-int columns = new Random().Next(4,5);
+int rows = new Random().Next(4,6);
+int columns = new Random().Next(4,6);
 int[,] matrix = new int[rows, columns];
 int sum = int.MaxValue;
 int index = 0;
